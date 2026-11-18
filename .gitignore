@@ -1,0 +1,19 @@
+# data (download from Kaggle; too big and not ours to redistribute)
+data/
+*.csv
+
+# MLflow tracking
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# secrets, if you ever add any
+.env
